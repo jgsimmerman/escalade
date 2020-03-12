@@ -16,10 +16,10 @@
   ],
   "author": "Taylor Austin <taustin@escaladesports.com>",
   "license": "MIT",
-  "devDependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint-plugin-jest": "^23.7.0",
-    "eslint-plugin-react": "^7.18.3"
-  },
-  "gitHead": "1fb5695469cb480778b3f38ecaa01310ce09a445"
+  "gitHead": "1fb5695469cb480778b3f38ecaa01310ce09a445",
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-react": "^7.19.0"
+  }
 }
