@@ -9,6 +9,6 @@ public
 _optimize
 temp
 temp-*
-/needs-updated/**
+/legacy/**
 /node_modules/
 **/node_modules/**
