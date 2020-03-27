@@ -52,8 +52,15 @@ module.exports = declare((api, options) => { // declare function allows better e
 				loose: false,
 			}],
 			require(`@babel/plugin-proposal-json-strings`),
-			require(`babel-plugin-dynamic-import-node`),
 			require(`@babel/plugin-proposal-object-rest-spread`),
-		], // plugins not included in presets
+		].concat(
+			/**
+			 * Don't include babel-plugin-dynamic-import-node for Gatsby sites. This
+			 * would make builds fail due to conflicts with @loadable/babel-plugin.
+			 */
+			options.gatsby
+				? []
+				: [require(`babel-plugin-dynamic-import-node`)],
+		), // plugins not included in presets
 	}
 })
