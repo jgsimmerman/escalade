@@ -1,6 +1,6 @@
 {
   "name": "@escaladesports/zygote-cart",
-  "version": "3.1.0",
+  "version": "4.0.0",
   "author": "Kennedy Rose <krose@escaladesports.com>",
   "contributors": [
     {
@@ -28,7 +28,7 @@
     ]
   },
   "dependencies": {
-    "@escaladesports/us-states-lib": "^1.0.6",
+    "@escaladesports/us-states-lib": "^2.0.0",
     "auth0-js": "^9.8.2",
     "auth0-lock": "^11.12.1",
     "babel-runtime": "^6.26.0",
@@ -49,14 +49,14 @@
     "react-input-mask": "^2.0.3",
     "react-stripe-elements": "^2.0.1",
     "sparkpost": "^2.1.2",
-    "statable": "^0.3.2",
+    "statable": "^1.0.0",
     "stripe": "^6.7.0"
   },
   "main": "dist/index.js",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
-    "@escaladesports/babel-preset": "^1.0.0",
+    "@escaladesports/babel-preset": "^2.0.0",
     "jest": "^25.1.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"

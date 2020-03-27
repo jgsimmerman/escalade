@@ -1,6 +1,6 @@
 {
   "name": "statable",
-  "version": "0.3.3",
+  "version": "1.0.0",
   "keywords": [
     "statable",
     "state",
@@ -22,11 +22,10 @@
     "test": "jest"
   },
   "devDependencies": {
-		"@babel/cli": "^7.8.4",
+    "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
-    "@escaladesports/babel-preset": "^1.0.0",
+    "@escaladesports/babel-preset": "^2.0.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
-  },
-  "dependencies": {}
+  }
 }

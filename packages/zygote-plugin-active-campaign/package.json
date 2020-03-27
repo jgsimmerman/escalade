@@ -1,6 +1,6 @@
 {
   "name": "zygote-plugin-active-campaign",
-  "version": "0.3.131",
+  "version": "1.0.0",
   "description": "Integration for Zygote and Active Campaign",
   "main": "dist/index.js",
   "scripts": {
@@ -26,11 +26,11 @@
     "isomorphic-fetch": "^2.2.1",
     "moment": "^2.24.0",
     "react": "^16.10.2",
-    "statable": "^0.3.2"
+    "statable": "^1.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
-    "@escaladesports/babel-preset": "^1.0.0"
+    "@escaladesports/babel-preset": "^2.0.0"
   }
 }
