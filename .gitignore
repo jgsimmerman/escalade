@@ -30,7 +30,3 @@ _optimize
 # Temporary
 temp
 temp-*
-
-# lock files
-yarn.lock
-package-lock.json
